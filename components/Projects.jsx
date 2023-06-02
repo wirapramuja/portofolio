@@ -1,9 +1,8 @@
 
 import React from 'react'
 import propertyImage from '../public/assets/projects/397.jpg'
-import cyptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import spotifyImg from '../public/assets/projects/spotify.jpg'
+
 
 
 import ProjectItems from './ProjectItems'
@@ -23,20 +22,11 @@ const Projects = () => {
                         projectUrl='https://minglebnb.vercel.app'
                     />
                     <ProjectItems
-                        title='Crypto App'
-                        backgroundImg={cyptoImg}
-                        projectUrl='/crypto'
+                        title='Spotify Clone'
+                        backgroundImg={spotifyImg}
+                        projectUrl='https://minglemusic.vercel.app'
                     />
-                    <ProjectItems
-                        title='Netflix Clone'
-                        backgroundImg={netflixImg}
-                        projectUrl='/netflix'
-                    />
-                    <ProjectItems
-                        title='Twitch Clone'
-                        backgroundImg={twitchImg}
-                        projectUrl='/twitch'
-                    />
+                    
 
 
                 </div>
