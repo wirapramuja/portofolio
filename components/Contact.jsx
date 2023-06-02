@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactImg from '../public/assets/wirja1.png'
+import contactImg from '@/public/assets/wirja1.jpg'
 import Image from 'next/image'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4'>
                         <div className='lg:p-4 h-full'>
                             <div>
-                                <Image className='rounded-xl hover:scale-105 duration-300 ease-in' src={ContactImg} alt="contact" />
+                                <Image className='rounded-xl hover:scale-105 duration-300 ease-in' src={contactImg} alt="contact" />
                             </div>
                             <div>
                                 <h2 className='py-2'>Wira Pramuja</h2>
